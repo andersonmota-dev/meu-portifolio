@@ -76,9 +76,36 @@
       font-size: 18px;
       line-height: 1.6;
     }
-      
+      .projetos {
+      margin-top: 30px;
+      padding: 25px;
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 15px;
+    }
+    .projetos h2 {
+      color: #22d3ee;
+      margin-bottom: 20px;
+    }
+    .projeto {
+      background: rgba(255, 255, 255, 0.10);
+      padding 20px;
+       border-radius: 12px;
+      text-align: left;
+      transition: transform 0.3s ease;
+    }
+    .projeto:hover {
+      transform: translateY(-5px);
+    }
+    .projeto h3 {
+      color: #22d3ee;
+      margin-bottom: 10px;
+    }
+    .projeto p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
   </style>
-  </head>
+</head>
   <body>
     <main class="cartao">
       
@@ -105,6 +132,18 @@
           
         </p>
         </section>
-      </main>
+      <section class="projetos">
+        <h2>Meus projetos</h2>
+
+        <div class="projeto">
+          <h3>projeto 1 - botão interativo</h3>
+
+          <p>
+            desenvolvi um botão utilizando HTML, CSS e javaScript.
+            ele muda de cor, aumenta de tamanho e gira ao clicar.
+          </p>
+        </div>
+      </section>
+    </main>
     </body>
     </html>
